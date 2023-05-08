@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root{
+    --roxo-escuro: #0f490a;
+    --bege-escuro: #91df7e;
+    --rosa-roxo: #1a8d3d;
+    --branco-bege: #59b62d;
+    --bege: #18741c;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: var(--branco-bege);
+    font-family: 'Roboto', sans-serif;
+    color: #232323;
+}
+#root{
+    height: 100vh;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.navbar{
+    background-color: var(--bege);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    filter: drop-shadow(10px 10px 4px #00000088);
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px ;
+}
+.navbar a{
+    font-size: 35px;
+    text-align: center;
+}
+.navbar a:hover{
+    color: var(--branco-bege);
+}
+.navbar img{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 50px; 
+}
+
+.banner{
+    width: 100%;
+   
+}
+.sobre{
+    text-align: center;
+    width: 70vh;
+}
+.sobre h1{
+    padding-top: 20px;
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: bold;
+}
+.sobre p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.HomeProdutos{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.HomeProdutos h1{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin:  20px;
+}
+.HomeProdutos img{
+    width: 40vw;
+}
+.row-center{
+    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 80px;
+
+}
+footer{
+    background-color: var(--roxo-escuro);
+    margin-top: 40px;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer a{
+    color: var(--branco-bege);
+    font-size: 28px;
+}
+footer a:hover{
+    color: var(--bege-escuro);
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 90vh;
+    text-align: center;
+}
+.login input, button{
+    margin-top: 20px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    color: var(--branco-bege);
+}
+.login button{
+    background-color: var(--roxo-escuro);
+}
+.login{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.divlogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 76.8vh;
+}
+.title{
+    text-align: center;
+}
+.title h1{
+    margin-top: 20px;
+    font-size: 32px;
+    font-weight: bold;
+}
+.title p{
+    font-size: 20px;
+}
+.Produtos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.produto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.produto img{
+    height: 400px;
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.produto h2{
+    margin-top: 12px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.produto p{
+    font-size: 16px;
+}
+.Cadastro{
+    display: flex;
+    font-size: 15px;
+    font-style: var(--bege-escuro);
+    
+ }
